@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>desain web</title>
+    <style>
+        header {
+            text-align: center;
+            background-color: #4ec1ff;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            background-color: #5a5559;
+            color: #fff;
+            padding: 10px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .harapan-saya {
+            background-color: #d1d847;
+            padding: 20px;
+        }
+        section a {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>lukman hairomin</h1>
+    </header>
+    <main>
+        <section>
+            <h2>about me</h2>
+            <p>saya manusia</p>
+        </section>
+        <section class="harapan-saya">
+            <h2>harapan saya pada matakuliah web desain</h2>
+            <p>Harapan saya pada matakuliah desain web adalah untuk mempelajari cara merancang situs web yang bagus dan menarik secara visual. Saya ingin menguasai keterampilan teknis yang diperlukan untuk membuat situs web yang responsif dan mudah digunakan oleh pengguna. Selain itu, saya juga berharap dapat memahami tren terbaru dalam desain web dan praktik terbaik untuk menciptakan pengalaman online yang memuaskan. Dengan pengetahuan dan keterampilan ini, saya ingin menjadi seorang desainer web yang handal dan dapat berkontribusi dalam proyek-proyek digital di masa depan.</p>
+        </section>
+        <section>
+            <h2><a href="https://www.instagram.com/lukman.juventino/#">instagram</a></h2>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024 lukman hairomin. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
