@@ -1,94 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lukman hairomin</title>
     <style>
-    fieldset {
-        background-color: antiquewhite;
-        padding: 20px;
-        border-radius: 5px;
-    }
-    legend {
-        background-color: rgb(125, 118, 118);
-        color: white;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
-    label {
-        display: inline-block;
-        width: 120px;
-        margin-bottom: 10px;
-    }
-    input[type="text"], textarea, select {
-        width: 200px;
-        padding: 5px;
-        border-radius: 3px;
-        border: 1px solid #ccc;
-    }
-
-    
-    .titik {display: inline;}
-</style>
-
+        fieldset {
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        legend {
+            background-color: rgb(125, 118, 118);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        input[type="text"], textarea, select {
+            width: 200px;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            border-radius: 3px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .titik {
+            display: inline;
+        }
+    </style>
 </head>
 <body>
     <fieldset>
         <legend>Biodata Saya</legend>
         <form action="">
-        <label for="namaAnda">Nama</label>
-        <table class="titik">:</table>
-        <input type="text" id="namaAnda" name="namaAnda" value="lukman"><br>
+            <label for="namaAnda">Nama</label><table class="titik">:</table>
+            <input type="text" id="namaAnda" name="namaAnda" value="lukman"><br>
 
-        <label for="alamat">Alamat</label>
-        <table class="titik">:</table>
-        <textarea id="alamat" name="alamat" placeholder="Masukkan alamat lengkap Anda disini" rows="3"></textarea><br>
+            <label for="alamat">Alamat</label><table class="titik">:</table>
+            <textarea id="alamat" name="alamat" placeholder="Masukkan alamat lengkap Anda disini" rows="3"></textarea><br>
 
-        <label for="tanggalLahir">TTL</label>
-        <table class="titik">:</table>
-        <input type="text" id="tanggalLahir" name="tanggalLahir" placeholder="Tempat, Tanggal Lahir">
-        <input type="date" id="tanggalLahir" name="tanggalLahir"><br>
+            <label for="tempatLahir">Tempat Lahir</label><table class="titik">:</table>
+            <input type="text" id="tempatLahir" name="tempatLahir"><br>
 
-        <label>Jenis Kelamin</label>
-        <table class="titik">:</table>
-        <input type="radio" id="laki-laki" name="kelamin" value="laki-laki">
-        <label for="laki-laki">Laki-laki</label>
-        <input type="radio" id="perempuan" name="kelamin" value="perempuan">
-        <label for="perempuan">Perempuan</label><br>
+            <label for="tanggalLahir">Tanggal Lahir</label><table class="titik">:</table>
+            <input type="date" id="tanggalLahir" name="tanggalLahir"><br>
 
-        <label for="agama">Agama</label>
-        <table class="titik">:</table>
-        <select id="agama" name="agama">
-            <option value="islam">Islam</option>
-            <option value="kristen">Kristen</option>
-            <option value="hindu">Hindu</option>
-            <option value="buddha">Buddha</option>
-        </select><br>
+            <label>Jenis Kelamin</label><table class="titik">:</table>
+            <input type="radio" id="laki-laki" name="kelamin" value="laki-laki">
+            <label for="laki-laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label><br>
 
-        <label>Hobby</label>
-        <table class="titik">:</table>
-        <input type="checkbox" id="olahraga" name="hobby" value="Olahraga">
-        <label for="olahraga">Olahraga</label>
-        <input type="checkbox" id="belajar" name="hobby" value="Belajar">
-        <label for="belajar">Belajar</label>
-        <input type="checkbox" id="komputer" name="hobby" value="Komputer">
-        <label for="komputer">Komputer</label>
-        <input type="checkbox" id="musik" name="hobby" value="Musik">
-        <label for="musik">Musik</label>
-        <input type="checkbox" id="bercamping" name="hobby" value="Bercamping">
-        <label for="bercamping">Bercamping</label>
-        <input type="checkbox" id="masak" name="hobby" value="Masak">
-        <label for="masak">Masak</label><br>
+            <label for="agama">Agama</label><table class="titik">:</table>
+            <select id="agama" name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+            </select><br>
 
-        <label for="motto">Motto</label>
-        <table class="titik">:</table>
-        <textarea id="motto" name="motto" placeholder="Isikan motto Anda disini" rows="3"></textarea><br>
+            <label>Hobby</label><table class="titik">:</table>
+            <input type="checkbox" id="olahraga" name="hobby" value="Olahraga">
+            <label for="olahraga">Olahraga</label>
+            <input type="checkbox" id="belajar" name="hobby" value="Belajar">
+            <label for="belajar">Belajar</label>
+            <input type="checkbox" id="komputer" name="hobby" value="Komputer">
+            <label for="komputer">Komputer</label>
+            <input type="checkbox" id="musik" name="hobby" value="Musik">
+            <label for="musik">Musik</label>
+            <input type="checkbox" id="bercamping" name="hobby" value="Bercamping">
+            <label for="bercamping">Bercamping</label>
+            <input type="checkbox" id="masak" name="hobby" value="Masak">
+            <label for="masak">Masak</label><br>
 
-        <button type="reset" value="reset">reset</button>
-        <button type="submit">Simpan</button>
-    </fieldset>
+            <label for="motto">Motto</label><table class="titik">:</table>
+            <textarea id="motto" name="motto" placeholder="Isikan motto Anda disini" rows="3"></textarea><br>
+
+            <button type="reset" value="reset">Reset</button>
+            <button type="submit">Simpan</button>
         </form>
-
-    </body>
+    </fieldset>
+</body>
 </html>
