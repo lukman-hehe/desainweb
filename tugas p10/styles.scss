@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .biodata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .photo {
+      margin-right: 20px;
+  
+      img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 5px solid #2ecc71;
+      }
+    }
+  
+    .info {
+      text-align: left;
+  
+      p {
+        margin: 5px 0;
+        color: #333;
+  
+        strong {
+          color: #3498db;
+        }
+      }
+    }
+  }
+  
