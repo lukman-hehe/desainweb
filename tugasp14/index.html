@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+    .portfolio-item img {
+      max-width: 100%;
+    }
+    .portfolio-item .description {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Portofolio Saya</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Lukman Hairomin</h1>
+    <p class="lead">Ini adalah contoh portofolio sederhana menggunakan Bootstrap.</p>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <h2 class="text-center">Tentang Saya</h2>
+    <p class="text-center">Saya adalah seorang hengker Tzy jadi jangan macam macam sama saya.</p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="container my-5">
+    <h2 class="text-center">Portofolio</h2>
+    <div class="row">
+      <div class="col-md-4 portfolio-item">
+        <img src="https://via.placeholder.com/350" alt="Project 1">
+        <div class="description">
+          <h5>ganti password</h5>
+          <p>saya hanya butuh waktu 2 menit mengganti password whatsapp.</p>
+        </div>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <img src="https://via.placeholder.com/350" alt="Project 2">
+        <div class="description">
+          <h5>hack kominfo</h5>
+          <p>saya berhasil hack kominfo menggunakan adobe ilustrator</p>
+        </div>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <img src="https://via.placeholder.com/350" alt="Project 3">
+        <div class="description">
+          <h5>hack wifi</h5>
+          <p>saya berhasil mengetahui password wifi yang telah saya buat sendiri.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center">ingin menggunakan jasa hack by lukman? silahkan hubungi saya</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="name">Nama</label>
+        <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+      </div>
+      <div class="form-group">
+        <label for="message">Pesan</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Masukkan pesan Anda"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>#hacker_epep</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
