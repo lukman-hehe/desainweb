@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>About Me</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="portofolio.html">Portfolio</a></li>
+            <li class="link"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <header class="container about-container">
+        <div class="content">
+            <h1>About <span>Me</span></h1>
+            <p>
+                Saya Lukman Juventino, seorang web developer yang mempunyai kecintaan untuk membuat situs web yang menarik dan ramah pengguna. Dengan keahlian di bidang HTML, CSS, dan JavaScript, saya berusaha keras untuk mewujudkan ide-ide inovatif melalui program yang bersih dan efisien.
+            </p>
+            <div class="skills">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Lukman Juventino. All rights reserved.</p>
+            <p>Follow me on:
+                <a href="#">LinkedIn</a> |
+                <a href="#">Twitter</a> |
+                <a href="https://github.com/lukman-hehe">GitHub</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.querySelector('.navbar');
+            const navLinks = document.querySelector('.nav-links');
+            
+            document.querySelector('.navbar').addEventListener('click', function () {
+                navbar.classList.toggle('open');
+                navbar.classList.toggle('closed');
+            });
+
+            navLinks.addEventListener('click', function () {
+                navbar.classList.remove('open');
+                navbar.classList.add('closed');
+            });
+        });
+    </script>
+</body>
+</html>
