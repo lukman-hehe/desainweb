@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="portofolio.html">Portfolio</a></li>
+            <li id="link3" class="link"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <H1>Hi, I'm <span>Lukman juventino</span>, Web Developer</H1>
+            <p>
+                Welcome to my portfolio website
+            </p>
+        </div>
+        <div class="image">
+            <img src="assets/profil.jpg">
+        </div>
+    </header>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Lukman Juventino. All rights reserved.</p>
+            <p>Follow me on:
+                <a href="#">LinkedIn</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">GitHub</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.querySelector('.navbar');
+            const navLinks = document.querySelector('.nav-links');
+            
+            document.querySelector('.navbar').addEventListener('click', function () {
+                navbar.classList.toggle('open');
+                navbar.classList.toggle('closed');
+            });
+
+            navLinks.addEventListener('click', function () {
+                navbar.classList.remove('open');
+                navbar.classList.add('closed');
+            });
+        });
+    </script>
+</body>
+</html>
